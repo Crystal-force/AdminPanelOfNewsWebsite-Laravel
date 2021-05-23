@@ -1,0 +1,155 @@
+#login_error {
+    display: none;
+}
+
+#register_error {
+    display: none;
+}
+
+#register_again {
+    display: none;
+}
+
+#register_accept {
+    display: none;
+}
+
+#register_exit {
+    display: none;
+}
+
+#login_null {
+    display: none;
+}
+
+#forgot_again {
+    display: none;
+}
+
+#forgot_error {
+    display: none;
+}
+
+#forgot_confirm {
+    display: none;
+}
+
+.table-content {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.table-content img {
+    width: 50px;
+}
+
+.table-content p {
+    color: #41fe30;
+    font-size: 14px;
+}
+
+.notificaion-icon {
+    width: 50px !important;
+}
+
+.table-index {
+    text-align: center
+}
+
+.news-img {
+    width: 135px !important;
+}
+
+.news-content {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    white-space: pre-wrap;
+    padding: 15px !important
+}
+
+.news-detail {
+    text-align: center;
+}
+
+.profile-avatar img {
+    border-radius: 2 !important;
+    -webkit-border-radius: 2 !important;
+    -moz-border-radius: 2 !important;
+    -ms-border-radius: 2 !important;
+    -o-border-radius: 2 !important;
+}
+
+.news-detail-content {
+    white-space: pre-wrap;
+    font-size: 16px;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 100%;
+}
+
+#accept-success {
+    display: none;
+}
+
+#send-comment {
+    display: none;
+}
+
+#accept-news {
+    display: none;
+}
+
+#user_comment {
+    display: none;
+}
+
+#new_newscomnet {
+    display: none;
+}
+
+#editable-news {
+    border: none
+}
+
+#editable-title {
+    width: 100% !important;
+}
+
+.mobile-message-icon span {
+    position: absolute;
+    top: -7% !important
+}
+
+.mobile-alert-icon {
+    position: absolute;
+    top: -7% !important
+}
+
+@media (max-width: 479px) {
+    .fixed-navbar .ico-item {
+        display: inline;
+    }
+    .search-btn {
+        display: none !important;
+    }
+    .mobile-message-icon span {
+        position: relative;
+        bottom: 9px;
+    }
+    .mobile-alert-icon {
+        position: relative;
+        bottom: 9px !important;
+    }
+    .page-title {
+        font-size: 16px !important;
+    }
+}
